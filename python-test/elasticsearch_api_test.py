@@ -5,7 +5,7 @@ es = Elasticsearch('http://localhost:9200')
 
 # 1. 인덱스, DOC 생성
 INDEX = 'test-index'
-
+ 
 doc = {
     'author': '김연지',
     'text': '첫번째 글입니다',
